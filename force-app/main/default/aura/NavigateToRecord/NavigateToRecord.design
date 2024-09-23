@@ -1,0 +1,5 @@
+<design:component label="Navigate to Record">
+  <design:attribute name="sObject" label="SObject" description="The SObject API Name" />
+  <design:attribute name="recordId" label="Record Id" />
+  <design:attribute name="mode" label="View or Edit?" description="Options 'view' or 'edit'" default="view" />
+</design:component>
